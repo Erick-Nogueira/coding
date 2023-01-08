@@ -1,0 +1,65 @@
+@charset "UTH-8";
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
+
+:root {
+    --primary-color: lightcoral;
+    --secondy-color: DimGrey;
+    --tertiary-color: Gainsboro;
+
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: lato, sans-serif;
+}
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    box-shadow:3px 3px 3px var(--tertiary-color);
+    border-radius: 20px;
+}
+.title{
+    background-color: var(--tertiary-color);
+    color: var(--secondy-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.tipsform{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.forminput{
+    background-color: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+
+}
+.forminput:focus{
+    border: 3px solid var(--primary-color);
+    outline:none;
+}
+.formselect{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+.formsubmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
